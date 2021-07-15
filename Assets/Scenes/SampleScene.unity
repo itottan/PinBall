@@ -662,11 +662,11 @@ RectTransform:
   m_Father: {fileID: 1957537903}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 120, y: -120}
-  m_SizeDelta: {x: 1081, y: 200}
-  m_Pivot: {x: 0, y: 1}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1080, y: 200}
+  m_Pivot: {x: 1, y: 1}
 --- !u!114 &814087109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -694,7 +694,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 140
-    m_Alignment: 3
+    m_Alignment: 5
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -1652,7 +1652,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7041118539235948585, guid: aac42cdb254354bdba24c0a162a2de65, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.02
+      value: -2.843
       objectReference: {fileID: 0}
     - target: {fileID: 7041118539235948585, guid: aac42cdb254354bdba24c0a162a2de65, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1861,7 +1861,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7041118539235948585, guid: aac42cdb254354bdba24c0a162a2de65, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.81
+      value: 2.8
       objectReference: {fileID: 0}
     - target: {fileID: 7041118539235948585, guid: aac42cdb254354bdba24c0a162a2de65, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2014,7 +2014,7 @@ MonoBehaviour:
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
+  m_ScreenMatchMode: 2
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96

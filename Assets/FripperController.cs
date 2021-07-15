@@ -63,11 +63,11 @@ public class FripperController : MonoBehaviour
             if (touch.phase != TouchPhase.Ended && touch.phase != TouchPhase.Canceled)
             {
                 //デバイスの幅はどうやって取得のを確認
-                if(touch.position.x > 1080 / 2 && tag == "RightFripperTag")
+                if(touch.position.x > Screen.width / 2 && tag == "RightFripperTag")
                 {
                     SetAngle(this.flickAngle);
                 }
-                if (touch.position.x < 1080 / 2 && tag == "LeftFripperTag")
+                if (touch.position.x < Screen.width / 2 && tag == "LeftFripperTag")
                 {
                     SetAngle(this.flickAngle);
                 }
